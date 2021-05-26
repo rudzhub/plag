@@ -1,0 +1,26 @@
+{
+	"name": "plag",
+	"version": "1.0.1",
+	"description": "Smart package for async/await delay",
+	"main": "index.js",
+	"scripts": {
+		"test": "node test.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rudzhub/plag.git"
+	},
+	"keywords": [
+		"delay",
+		"timeout",
+		"async",
+		"await",
+		"promise"
+	],
+	"author": "rudz",
+	"license": "GPL-3.0",
+	"bugs": {
+		"url": "https://github.com/rudzhub/plag/issues"
+	},
+	"homepage": "https://github.com/rudzhub/plag#readme"
+}
