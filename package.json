@@ -1,26 +1,35 @@
 {
-	"name": "plag",
-	"version": "1.0.1",
-	"description": "Smart package for async/await delay",
-	"main": "index.js",
-	"scripts": {
-		"test": "node test.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/rudzhub/plag.git"
-	},
-	"keywords": [
-		"delay",
-		"timeout",
-		"async",
-		"await",
-		"promise"
-	],
-	"author": "rudz",
-	"license": "GPL-3.0",
-	"bugs": {
-		"url": "https://github.com/rudzhub/plag/issues"
-	},
-	"homepage": "https://github.com/rudzhub/plag#readme"
+  "name": "plag",
+  "version": "1.0.2",
+  "description": "Smart package for async/await delay",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "yarn lint & yarn format & tsc",
+    "lint": "tslint -p tsconfig.json",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudzhub/plag.git"
+  },
+  "keywords": [
+    "delay",
+    "timeout",
+    "async",
+    "await",
+    "promise"
+  ],
+  "author": "rudz",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/rudzhub/plag/issues"
+  },
+  "homepage": "https://github.com/rudzhub/plag#readme",
+  "devDependencies": {
+    "prettier": "^2.3.0",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.3.2"
+  }
 }
