@@ -1,4 +1,4 @@
-declare const plug: (delay?: number) => Promise<unknown>;
-export { plug };
-export default plug;
+declare const plag: (delay?: number) => Promise<unknown>;
+export { plag };
+export default plag;
 //# sourceMappingURL=index.d.ts.map
